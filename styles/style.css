@@ -402,9 +402,7 @@ dialog::backdrop {
   }
 
   .theme-menu__list {
-    display: grid;
     line-height: 60%;
-    gap: 13px;
   }
 
   .content {
