@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --text-font: 'Inter-Variable', 'serif';
+  --text-font-accent: 'PressStart2P-Regular', 'serif';
+  --title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --main-color: #000;
+  --accent-color: #FFF;
+  --save-color: #FFF;
+  --save-color-reverse: #000;
+  --contour-heart: #000;
+  --fill-heart: #FF0000;
+  --text-card: 400px;
+  --title-card: 700px;
+  --bg-color: #FFF;
+  --bg-image: repeating-linear-gradient(
+      transparent,
+      #d3d3d3 2px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      #d3d3d3 2px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --card-width: clamp(23.188rem, 8.679rem + 38.69vw, 43.5rem);
+}
