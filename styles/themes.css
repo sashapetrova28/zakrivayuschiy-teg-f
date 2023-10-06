@@ -16,8 +16,8 @@
   --contour-heart: #000;
   --fill-heart: #FF0000;
   --like-hover: #FFF;
-  --text-card: 400px;
-  --title-card: 700px;
+  --text-weigh: 400px;
+  --title-wight: 700px;
   --bg-color: #FFF;
   --bg-image: repeating-linear-gradient(
       transparent,
@@ -42,9 +42,9 @@
     --save-color: #00CC14;
     --contour-heart: #00CC14;
     --fill-heart: #FF0000;
-    --text-card: 400px;
+    --text-weigh: 465px;
     --like-hover: #00CC14;
-    --title-card: 700px;
+    --title-wight: 785px;
     --bg-color: #000;
     --bg-image: repeating-linear-gradient(
         transparent,
@@ -70,8 +70,8 @@
     --contour-heart: #000;
     --fill-heart: #FF0000;
     --like-hover: #FFF;
-    --text-card: 400px;
-    --title-card: 700px;
+    --text-weigh: 400px;
+    --title-wight: 700px;
     --bg-color: #FFF;
     --bg-image: repeating-linear-gradient(
         transparent,
@@ -99,8 +99,8 @@
     --contour-heart: #00CC14;
     --like-hover: #00CC14;
     --fill-heart: #FF0000;
-    --text-card: 400px;
-    --title-card: 700px;
+    --text-weigh: 465px;
+    --title-wight: 785px;
     --bg-color: #000;
     --bg-image: repeating-linear-gradient(
         transparent,
