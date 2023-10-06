@@ -24,6 +24,7 @@
   background-size: cover;
   font-family: var(--text-font);
   font-variation-settings: 'wght' var(--text-weight, 400);
+  line-height: normal;
 }
 
 /* header */
@@ -39,10 +40,12 @@
   margin-inline-end: auto;
   padding-block-start: 136px;
   border: 2px solid var(--main-color);
+  line-height: normal;
 }
 
 .header__container {
   display: grid;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -66,10 +69,13 @@
   display: grid;
   justify-content: center;
   padding-block-end: 25px;
+  padding-inline-start: 315px;
+  padding-inline-end: 297px;
 }
 
 .theme-menu__list {
   display: grid;
+  line-height: 60%;
   gap: 14px;
 }
 
@@ -385,7 +391,24 @@ dialog::backdrop {
 /* *** */
 
 @media (width <= 376px) {
+  
+  .header {
+    padding-block-start: 120px;
+  }
+
+  .header__theme-menu {
+    padding-inline-start: 155px;
+    padding-inline-end: 133px;
+  }
+
+  .theme-menu__list {
+    display: grid;
+    line-height: 60%;
+    gap: 13px;
+  }
+
   .content {
     gap: 50px;
+    margin-block-start: 100px;
   }
 }
