@@ -69,8 +69,6 @@
   display: grid;
   justify-content: center;
   padding-block-end: 25px;
-  padding-inline-start: 315px;
-  padding-inline-end: 297px;
 }
 
 .theme-menu__list {
@@ -410,3 +408,9 @@ dialog::backdrop {
     margin-block-start: 100px;
   }
 }
+
+/* @media (width >= 377px) and (width <= 695px) {
+  .page {
+    width: 100%;
+  }
+} */
